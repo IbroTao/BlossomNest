@@ -1,3 +1,7 @@
+:root{
+    --pink: #e84393;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,4 +9,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: none;
     border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
 }
