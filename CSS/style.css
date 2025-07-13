@@ -34,7 +34,13 @@ header .logo {
 }
 
 header .navbar a {
-    font-size: 2rem;
+    font-size: 0.9rem;
     padding: 0 1.5rem;
     color: #666;
+}
+
+header .icons a {
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    color: #333;
 }
