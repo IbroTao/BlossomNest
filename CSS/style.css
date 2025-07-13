@@ -74,11 +74,22 @@ header .fa-bars {
 }
 
 @media (max-width: 768px) {
-    html {
-        font-size: 55%;
+    html .fa-bars {
+        display: block;
     }
 
-    header{
-        padding: 2rem;
+    header .navbar{
+        position: absolute;
+        top: 100%; right: 0; left: 0;
+        border-top: .1rem solid rgba(0, 0, 0, 0.1);
+        background: #eee;
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0, 0, 0, 0.1);
+        display: block;
     }
 }
