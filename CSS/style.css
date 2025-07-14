@@ -85,6 +85,10 @@ header .fa-bars {
         background: #eee;
     }
 
+    header #toggler:checked ⁓ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
     header .navbar a {
         margin: 1.5rem;
         padding: 1.5rem;
